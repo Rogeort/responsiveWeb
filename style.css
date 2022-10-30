@@ -1,0 +1,113 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body{ 
+    max-width: 100%;
+}
+
+
+header {
+    border: 1px solid black;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 90%;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    width: 85%;
+    margin: auto auto;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.image {
+    height: 3cm;
+    width: 3cm;
+    background-color: blue;
+    margin: auto auto;
+}
+
+.brand, .data {
+    margin: auto 1rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin: 2rem 1rem;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+}
+
+
+.logo{
+    width: 3cm;
+    margin: 5px 0; 
+}
+
+/* button{ 
+    border: none;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+} */
+
+@media screen and (max-width: 800px){
+    section {
+        display: block;
+    }
+
+    .brand, .data {
+        padding: 1rem 1rem;    
+    }
+
+    .data p{
+        text-align: center;
+        
+    }
+
+    p, a{
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+
+    .image {
+        width: calc(3cm * 1.5);
+        height: calc(3cm * 1.5);
+
+    }
+}
