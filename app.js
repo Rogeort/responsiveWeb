@@ -11,7 +11,7 @@ if (isMobileDevice) {
         console.log('clicked');
     });
 
-    tag.href="Calculator://";
+    tag.href="com.android.calculator2";
 } else {
    tag.href="ms-calculator://"
 }
